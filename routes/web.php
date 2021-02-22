@@ -20,3 +20,4 @@ Route::get('/', function () {
 Route::get('/user/{first_name}/{last_name}', function ($first_name, $last_name) {
     return "My name is ".$first_name." ".$last_name;
 });
+/* GRIMNEVER */
